@@ -5,6 +5,11 @@ Bundler.require
 # OmniAuth requires sessions to be enabled.
 enable :sessions
 
+# Require ssl in production
+configure :production do
+  use Rack::SSL
+end
+
 # Add the `:bluevia` strategy from our fork of OmniAuth (see Gemfile) to the
 # rack middleware stack.
 use OmniAuth::Builder do
