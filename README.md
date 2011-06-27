@@ -1,7 +1,7 @@
 bluevia-example
 ===============
 
-[bluevia-example.heroku.com](https://bluevia-example.heroku.com)
+[bluevia-example.heroku.com](https://bluevia-example.heroku.com) | [annotated source code](http://hecticjeff.github.com/bluevia-example/)
 
 Simple ruby [sinatra](http://www.sinatrarb.com/) app to test the Bluevia API.
 
