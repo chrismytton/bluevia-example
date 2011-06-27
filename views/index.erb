@@ -1,0 +1,18 @@
+<a href="<%= url('/logout') %>">Log out</a>
+
+<h1>User details</h1>
+
+<ul>
+  <li>Access token: <%= @auth['credentials']['token'] %></li>
+</ul>
+
+<h2>User info</h2>
+<pre>
+  <%= JSON.pretty_generate @auth['extra']['user_hash'] %>
+</pre>
+
+<h2>Location</h2>
+<pre>
+  <%= JSON.pretty_generate @auth['extra']['user_location'] %>
+</pre>
+
